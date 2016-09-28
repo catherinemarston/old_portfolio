@@ -1,0 +1,66 @@
+/* animated elements */
+.animateblock {
+  opacity: 0;
+  -webkit-transition: all 1.5s linear;
+  -moz-transition: all 1.5s linear;
+  transition: all 1.5s linear;
+}
+
+.animateblock.animated {
+  opacity: 1;
+}
+
+/* animation transition styles */
+.animateblock.left {
+  margin-left: -5s%;
+}
+.animateblock.left.animated {
+  margin-left: 8%;
+}
+
+.animateblock.right {
+  display:block;
+
+}
+.animateblock.right.animated {
+  
+}
+
+.animateblock.top {
+  display: block;
+  width: auto;
+  margin-top: -25px;
+}
+.animateblock.top.animated {
+  margin-top: 0px;
+}
+
+.animateblock.btm {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-top: 25px;
+}
+.animateblock.btm.animated {
+  margin-top: 0;
+}
+
+.animateblock.centerleft {
+  display: block;
+  width: auto;
+  margin-right: -10%;
+}
+.animateblock.centerleft.animated {
+  margin-right: 0;
+}
+
+.animateblock.centerright {
+  display: block;
+  width: auto;
+  text-align: center;
+  margin-left: -10%;
+}
+.animateblock.centerright.animated {
+  margin-left: 0;
+}
+
